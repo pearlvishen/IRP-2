@@ -1,0 +1,144 @@
+
+body{
+background-color: #381b0d;
+border: 15px groove rgb(92, 54, 30);
+margin:0 auto;
+}
+.center{text-align: center;}
+
+.impact{
+  margin-left: 35%;
+  font-size: 30px;
+  font-family:Impact, Charcoal, sans-serif;
+  color:#ffe9de;
+  }
+  
+.text{font-style:Times New Roman;
+color:#ffe9de;
+font-size:12px;
+margin-left:75%;
+}
+
+h5{font-size:15px;
+margin-top:15%;
+margin-left:3%;
+font-style:Times New Roman;
+color:  #ffe9de;}
+
+
+h4{
+  color:black;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size:20px;
+  margin-left:3%;
+  margin-right:3%;
+  color:#ffe9de;
+
+}
+
+#title{
+
+  font-family: 'Trattatello', fantasy;
+  font-size: 60px;
+  margin-top: 0%;
+  color:#ffe9de;
+  margin-left:3%;
+}
+
+.title{
+  -webkit-animation: change 5s infinite; 
+}
+
+@-webkit-keyframes change{
+  0%{color: rgb(0, 0, 0);}
+  25%{color: #532d17;}
+  50%{color: #8d6f5e}
+  74%{color: #ffe9de;}
+}
+
+.introimage{float:left;
+height:290px;
+width:400px;
+border: 5px groove black;
+margin-left:3%;}
+
+.introimage2{float:right;height:290px;
+width:400px;
+border: 5px groove black;}
+
+h2{
+color:black;
+font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+color:#ffe9de;
+margin-left:3%;
+}
+
+#one{
+margin-left:12%;
+padding: 1%;
+padding-left: 2%;
+padding-right:2%;
+text-align:center;
+font-size:100%;
+color: black;
+background-color:white;
+text-decoration:none;
+border-color: black;
+border-style: solid;
+border-width: 2px;
+margin-bottom: 100%
+}
+
+#two{
+margin-left:5%;
+padding: 1%;
+text-align:center;
+font-size:100%;
+color: black;
+background-color:white;
+text-decoration:none;
+border-color: black;
+border-style: solid;
+border-width: 2px;
+}
+
+#three{
+width:20%;
+margin-left:5%;
+padding: 1%;
+padding-left:2.5%;
+padding-right:2.5%;
+text-align:center;
+font-size:100%;
+color: black;
+background-color:white;
+text-decoration:none; 
+border-color: black;
+border-style: solid;
+border-width: 2px;}
+
+
+a#one:hover{
+background-color:#cfd1c8;
+color:black;
+border-style: solid;
+border-width: 2px;
+border-color: white;
+}
+
+ a#two:hover{
+  background-color:#cfd1c8;
+  color:black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+ a#three:hover{
+  background-color:#cfd1c8;
+  color:black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
