@@ -1,0 +1,104 @@
+body{
+background-color: #381b0d;
+border: 15px groove rgb(92, 54, 30);
+margin:0 auto;
+}
+
+h1{
+ font-family: 'Trattatello', fantasy;
+ text-align: center;
+ font-size: 50px;
+ margin-bottom:0%;
+ color:#ffe9de;
+}
+
+h5{text-align:right;
+margin-left:50%;
+margin-right:10%;
+margin-top:0%;
+color:#ffe9de;}
+
+.title{
+  -webkit-animation: change 5s infinite; 
+}
+
+@-webkit-keyframes change{
+  0%{color: rgb(0, 0, 0);}
+  25%{color: #532d17;}
+  50%{color: #8d6f5e}
+  74%{color: #ffe9de;}
+}
+
+
+
+h2{
+font-size:30;
+position:absolute;
+float:left;
+margin-left:5%;
+margin-right:43%;
+margin-bottom:3%;
+font-family: "Courier New", Courier;
+color:#ffe9de;
+}
+
+img{
+  height:600px;
+  width:550px;
+  padding-bottom:6%;
+  margin-top:1%;
+  float:right;
+}
+
+.UN{
+  margin-top: 34%;
+}
+
+#return{
+margin-top:90%;
+padding: 1.5%;
+padding-left: 2%;
+padding-right:2%;
+text-align:center;
+font-size:100%;
+color: black;
+background-color:white;
+text-decoration:none;
+border-color: black;
+border-style: solid;
+border-width: 2px;
+
+}
+
+  a#return:hover{
+  background-color:#cfd1c8;
+  color:black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+
+#UN{
+position:relative;
+padding: 1%;
+padding-left: 2%;
+padding-right:2%;
+text-align:center;
+font-size:100%;
+color: black;
+background-color:white;
+text-decoration:none;
+border-color: black;
+border-style: solid;
+border-width: 2px;
+
+}
+
+  a#UN:hover{
+  background-color:#cfd1c8;
+  color:black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
